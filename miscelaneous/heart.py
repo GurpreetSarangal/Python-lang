@@ -1,4 +1,5 @@
 from turtle import *
+bgcolor('light green')
 color ('red')
 begin_fill()
 pensize(3)
@@ -9,3 +10,5 @@ right(140)
 circle(50, 200)
 forward(133)
 end_fill()
+hideturtle()
+mainloop()
