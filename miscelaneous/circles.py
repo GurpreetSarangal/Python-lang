@@ -1,14 +1,14 @@
 import turtle
 turtle.bgcolor("black")
-turtle.pensize(2)
+turtle.pensize(3)
 turtle.speed(0)
-col = ["red","magenta","blue","cyan","green","yellow","white"]
+col = ['violet','indigo','blue','green','yellow','orange','red']
 
-for i in range(6):
+for i in range(20):
     for colours in col:
         turtle.color(colours)
         turtle.circle(100)
-        turtle.left(10)
+        turtle.left(3)
 
 turtle.hideturtle()
-turtle.mainloop()   
+turtle.mainloop()
