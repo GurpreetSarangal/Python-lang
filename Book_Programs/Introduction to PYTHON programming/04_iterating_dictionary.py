@@ -10,3 +10,8 @@ print() #for an enter
 
 for val in dict1.values():
     print(val,end='  ')
+
+print()
+
+for key in dict1.items():# to iterate through all items
+    print(key)
