@@ -41,7 +41,11 @@
 
 ### List Methods
 
-
+* List comprehension is a compact way of creating a new list using elements from another existing list that satisfy certain condition. A list comprehension consists of an expression followed by for statement and optionally if statements. It is enclosed within a pair of brackets since brackets define a list in python
+    - newlist = [EXPR for LIST_ELEMENT in ITERABLE [if condition]  ]
+        - numberList = [x**2 for x in [1,2,3,4,5]]
+        - print([x**2 for x in range(1,9) if x%2==0])
+        - new_list = [i**2 for i in numberList if i>0]
 * append(): The append() method adds a single item to the existing list. It doesn't return new list, rather is modifies the original list. If a list is passed, it just nests' the lists unlike extend method.
     - list.append(item)
 * count(): The method count() returns count of how many times the particular item occurs in list.
@@ -55,11 +59,12 @@
 * insert():
     - list.insert(index, object)
 * pop(): removes and returns the element at the index specified.
-    - list.pop()
     - list.pop(index)
         -  If index is out of range it throws an error.
-* remove():
-    - list.remove()
+* remove(): removes the element which is specified
+    - list.remove(ELEMENT)
+        - don't runs in without element
+        - throws an error if element was not in list
 * reverse():
     - list.reverse()
 * sort():
@@ -113,6 +118,7 @@
 * range(5) : 0 until 4
 * range(2,6) : 2 until 5
 * range(2, 10, 2) : 2 until 9 with 2 steps :[2, 4, 6, 8]
+* range(10, 2, -1) : from 10 until 3 with step of 1: [10, 9, 8, 7, 6, 5, 4, 3]
 ----
 ### sets and its methods
 
