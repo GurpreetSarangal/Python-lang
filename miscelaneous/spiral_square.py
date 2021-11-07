@@ -12,10 +12,10 @@ def sqrfunc(size):
 
     for i in range(size):
         skk.fd(lenght)
-        lenght += 8
-        skk.left(120)
-        size = size + 5
-        pen = pen + 0.01
+        lenght += 1
+        skk.left(40)
+        pen += (pen/100)
+        # lenght += pen
         skk.pensize(pen)
 
 

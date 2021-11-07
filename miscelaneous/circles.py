@@ -1,6 +1,6 @@
 import turtle
 turtle.bgcolor("black")
-turtle.pensize(3)
+turtle.pensize(6)
 turtle.speed(0)
 col = ['violet','indigo','blue','green','yellow','orange','red']
 

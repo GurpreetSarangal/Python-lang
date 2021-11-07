@@ -1,5 +1,11 @@
+# this is a experimental program on lists and its 
+
 fruits = ['apple','mango','guava','orange']
 fruits.extend(['grapes','mango'])
+
+# list comprehension 
+# list = [(x/2)**2 for x in [1,2,3,4,5,6]]
+# newlist = [EXPR for LIST_ELEMENT in ITERABLE [if condition] ]
 
 
 # fruits.index('mango')
@@ -30,4 +36,4 @@ fruits.extend(['grapes','mango'])
 # fruits.sort() 
 # sort takes no arguments
 
-print(fruits)
+print(fruits.sort() )
