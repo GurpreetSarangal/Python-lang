@@ -7,3 +7,4 @@ for i in list:
 print("from the list: ")
 print(list)
 print(max,"is the greatest")
+ 
